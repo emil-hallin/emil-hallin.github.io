@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emil Hallin — Game Developer & QA Specialist</title>
+    <meta
+      name="description"
+      content="Portfolio of Emil Hallin — Game QA specialist at major studios. Worked on Avatar: Frontiers of Pandora and Little Nightmares."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== NAV ===== -->
+    <nav class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#hero" class="nav__logo"
+          >Emil Hallin<span class="nav__logo-dot">.</span></a
+        >
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero__content">
+        <p class="hero__tag">Game Developer &amp; QA Specialist</p>
+        <h1 class="hero__name">Emil<br />Hallin</h1>
+        <p class="hero__intro">
+          <span data-years-since="2016"></span>+ years shaping
+          <strong>AAA titles</strong> from the inside — from hunting the last
+          critical bug to building game jam prototypes from scratch.
+        </p>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number"
+              ><span data-years-since="2016"></span>+</span
+            >
+            <span class="hero__stat-label">Years in Industry</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">2</span>
+            <span class="hero__stat-label">AAA Titles Shipped</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">10+</span>
+            <span class="hero__stat-label">Game Jam Entries</span>
+          </div>
+        </div>
+        <a href="#about" class="hero__cta">Explore My Work</a>
+      </div>
+      <div class="hero__scroll">
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">About Me</h2>
+        <div class="about__content anim-fade-up">
+          <div class="about__text">
+            <p class="about__lead">
+              I've spent
+              <span data-years-since="2016" data-suffix=" years"></span>
+              ensuring players get the experience they deserve. As a core QA
+              tester on <strong>Avatar: Frontiers of Pandora</strong> at Massive
+              Entertainment and <strong>Little Nightmares</strong> at Tarsier
+              Studios, I've been in the trenches of two critically acclaimed
+              titles — catching what others miss and collaborating directly with
+              developers to ship polished, immersive games. Minor contributions
+              to <strong>Star Wars: Outlaws</strong> and
+              <strong>Tom Clancy's The Division</strong>.
+            </p>
+            <p>
+              But testing is only half the story. I'm a game developer at heart
+              — with over a dozen game jam entries, experience in Unreal Engine,
+              Unity, and programming in C++, C#, and Python. I don't just find
+              bugs; I understand the code behind them.
+            </p>
+          </div>
+          <div class="about__highlights">
+            <div class="highlight-card">
+              <div class="highlight-card__icon">🎮</div>
+              <h3>Shipped Titles</h3>
+              <p>Avatar: Frontiers of Pandora, Little Nightmares</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-card__icon">🏢</div>
+              <h3>Studios</h3>
+              <p>Massive Entertainment (Ubisoft), Tarsier Studios</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-card__icon">🛠️</div>
+              <h3>Developer &amp; Tester</h3>
+              <p>Bridging QA and development with hands-on coding skills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Experience</h2>
+        <div class="timeline">
+          <!-- Massive - Dev Tester -->
+          <div class="timeline__item anim-fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__date">2024 — Present</div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <img
+                  src="images/massive-logo.webp"
+                  alt="Massive Entertainment"
+                  class="timeline__logo"
+                />
+                <div class="timeline__header-text">
+                  <h3>Development Tester</h3>
+                  <span class="timeline__company"
+                    >Massive Entertainment
+                    <span class="timeline__location">· Malmö</span></span
+                  >
+                </div>
+              </div>
+              <p>
+                After the release of Avatar: Frontiers of Pandora, I
+                transitioned to Development Tester, continuing work on DLCs and
+                live updates. Responsible for testing combat, the living world,
+                and weapon &amp; tool systems. Created comprehensive test plans
+                for the QA team and coordinated bug triage directly with
+                developers. Led daily communication across taskforces spanning
+                Massive and external co-dev studios.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Test Planning</span>
+                <span class="tag">DLC</span>
+                <span class="tag">Cross-Team Coordination</span>
+                <span class="tag">Snowdrop Engine</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Massive - Game Tester -->
+          <div class="timeline__item anim-fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__date">2018 — 2024</div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <img
+                  src="images/massive-logo.webp"
+                  alt="Massive Entertainment"
+                  class="timeline__logo"
+                />
+                <div class="timeline__header-text">
+                  <h3>Game Tester</h3>
+                  <span class="timeline__company"
+                    >Massive Entertainment
+                    <span class="timeline__location">· Malmö</span></span
+                  >
+                </div>
+              </div>
+              <p>
+                Started as a consultant through Academic Work, then hired
+                directly after two years. Performed daily testing on Avatar:
+                Frontiers of Pandora through its full development cycle —
+                flagging issues, filing detailed bug reports, and maintaining
+                quality standards across builds.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Jira</span>
+                <span class="tag">Xray</span>
+                <span class="tag">Perforce</span>
+                <span class="tag">Bug Reporting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarsier -->
+          <div class="timeline__item anim-fade-up">
+            <div class="timeline__marker"></div>
+            <div class="timeline__date">2016 — 2017</div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <img
+                  src="images/tarsierstudios-logo.png"
+                  alt="Tarsier Studios"
+                  class="timeline__logo"
+                />
+                <div class="timeline__header-text">
+                  <h3>Functionality Tester</h3>
+                  <span class="timeline__company"
+                    >Tarsier Studios
+                    <span class="timeline__location">· Malmö</span></span
+                  >
+                </div>
+              </div>
+              <p>
+                QA tested Little Nightmares from development through release.
+                Identified and reported functionality bugs in the studio's
+                tracking system, contributing to the final polish of this
+                critically acclaimed title.
+              </p>
+              <div class="timeline__tags">
+                <span class="tag">Little Nightmares</span>
+                <span class="tag">Functionality Testing</span>
+                <span class="tag">Ship Title</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Skills</h2>
+        <div class="skills__grid anim-fade-up">
+          <div class="skill-group">
+            <h3 class="skill-group__title">
+              <span class="skill-group__icon">🧪</span> Testing &amp; QA
+            </h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">Jira</span>
+              <span class="skill-tag">Xray</span>
+              <span class="skill-tag">Perforce</span>
+              <span class="skill-tag">Test Planning</span>
+              <span class="skill-tag">Bug Reporting</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">
+              <span class="skill-group__icon">🎮</span> Game Engines
+            </h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">Unreal Engine</span>
+              <span class="skill-tag">Unity Engine</span>
+              <span class="skill-tag">Snowdrop Engine</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">
+              <span class="skill-group__icon">💻</span> Programming
+            </h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">C#</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">
+              <span class="skill-group__icon">🎨</span> Graphics &amp; Tools
+            </h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">Blender</span>
+              <span class="skill-tag">Adobe Photoshop</span>
+              <span class="skill-tag">Visual Studio</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">
+              <span class="skill-group__icon">🖥️</span> Platforms &amp; Other
+            </h3>
+            <div class="skill-group__tags">
+              <span class="skill-tag">Windows</span>
+              <span class="skill-tag">Linux (Basic)</span>
+              <span class="skill-tag">Microsoft Office</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Personal Projects</h2>
+        <p class="section__subtitle anim-fade-up">
+          Game jam entries, prototypes, and creative experiments
+        </p>
+
+        <div class="projects__grid">
+          <!-- YOU ARE FIRED! -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/youarefired-title.png"
+                alt="YOU ARE FIRED!"
+                loading="lazy"
+              />
+              <img
+                src="images/youarefired-gameplay.png"
+                alt="YOU ARE FIRED! gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 43</span>
+              <h3 class="project-card__title">YOU ARE FIRED!</h3>
+              <p class="project-card__desc">
+                A frantic game built around the theme of sacrifice. Manage your
+                team while making tough decisions — who stays and who goes?
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://ldjam.com/events/ludum-dare/43/you-are-fired"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Not Enough Space -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/notenoughspace-title.png"
+                alt="Not Enough Space"
+                loading="lazy"
+              />
+              <img
+                src="images/notenoughspace-gameplay.gif"
+                alt="Not Enough Space gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 42</span>
+              <h3 class="project-card__title">Not Enough Space</h3>
+              <p class="project-card__desc">
+                A puzzle game exploring the theme of running out of space.
+                Maneuver through tight constraints and find creative solutions.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://ldjam.com/events/ludum-dare/42/not-enough-space-2"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Paperwork -->
+          <article class="project-card anim-fade-up" data-video="pcqzn3AGXPs">
+            <div class="project-card__media">
+              <img
+                src="images/paperwork-title-animated.gif"
+                alt="Paperwork"
+                loading="lazy"
+              />
+              <img
+                src="images/paperwork-gameplay.png"
+                alt="Paperwork gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 40</span>
+              <h3 class="project-card__title">Paperwork</h3>
+              <p class="project-card__desc">
+                The more you have, the worse it gets. Drown in an ever-growing
+                mountain of paperwork in this comedic take on bureaucracy.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://ldjam.com/events/ludum-dare/40/paperwork"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="pcqzn3AGXPs"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Is your Refrigerator running? -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/isyourrefrigeratorrunning-title.jpg"
+                alt="Is your Refrigerator running?"
+                loading="lazy"
+              />
+              <img
+                src="images/isyourrefrigeratorrunning-gameplay.jpg"
+                alt="Is your Refrigerator running? gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 39</span>
+              <h3 class="project-card__title">Is your Refrigerator running?</h3>
+              <p class="project-card__desc">
+                Built around the theme of running out of power. A humorous twist
+                on the classic prank call — what if your fridge really was
+                running?
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://ldjam.com/events/ludum-dare/39/is-your-refrigerator-running"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Big Foot in Smalltown -->
+          <article class="project-card anim-fade-up" data-video="yhe8jS62Q60">
+            <div class="project-card__media">
+              <div class="project-card__placeholder">
+                <img
+                  src="https://img.youtube.com/vi/yhe8jS62Q60/hqdefault.jpg"
+                  alt="Big Foot in Smalltown"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 38</span>
+              <h3 class="project-card__title">Big Foot in Smalltown</h3>
+              <p class="project-card__desc">
+                A small world, a big problem. Play as Bigfoot trying to navigate
+                through a tiny town without being caught.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="https://ldjam.com/events/ludum-dare/38/big-foot-in-smalltown"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="yhe8jS62Q60"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Rummet -->
+          <article class="project-card anim-fade-up" data-video="rYfCiEQhSFw">
+            <div class="project-card__media">
+              <img
+                src="images/rummet-gameplay.png"
+                alt="Rummet"
+                loading="lazy"
+              />
+              <img
+                src="images/runnet-gameplay2.png"
+                alt="Rummet gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 37</span>
+              <h3 class="project-card__title">Rummet</h3>
+              <p class="project-card__desc">
+                One room, one way to get out. Escape rooms taken to the
+                computer.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=44682"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="rYfCiEQhSFw"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Death Rays of Archimedes -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <div class="project-card__placeholder">
+                <span class="project-card__placeholder-icon">☀️</span>
+                <span class="project-card__placeholder-text"
+                  >Death Rays of Archimedes</span
+                >
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 36</span>
+              <h3 class="project-card__title">Death Rays of Archimedes</h3>
+              <p class="project-card__desc">
+                Harness the power of ancient technology. Use mirrors and
+                sunlight to defend against invaders in this
+                historically-inspired strategy game.
+              </p>
+              <div class="project-card__links">
+                <a
+                  href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=44682"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--sm"
+                  >View Entry →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Feed me! -->
+          <article class="project-card anim-fade-up" data-video="mCCOsSIbpos">
+            <div class="project-card__media">
+              <div class="project-card__placeholder">
+                <img
+                  src="https://img.youtube.com/vi/mCCOsSIbpos/hqdefault.jpg"
+                  alt="Feed me!"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 34</span>
+              <h3 class="project-card__title">Feed me!</h3>
+              <p class="project-card__desc">
+                A growing appetite demands constant feeding. Keep the creature
+                satisfied before it turns its hunger on you.
+              </p>
+              <div class="project-card__links">
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="mCCOsSIbpos"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Kragzhor -->
+          <article class="project-card anim-fade-up" data-video="KteGX3ge0TI">
+            <div class="project-card__media">
+              <img
+                src="images/kragzhor-title.png"
+                alt="Kragzhor"
+                loading="lazy"
+              />
+              <img
+                src="images/kragzhor-gameplay.png"
+                alt="Kragzhor gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 33</span>
+              <h3 class="project-card__title">Kragzhor</h3>
+              <p class="project-card__desc">
+                You are the monster. Terrorize the world as Kragzhor in this
+                action-packed game where destruction is the only path forward.
+              </p>
+              <div class="project-card__links">
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="KteGX3ge0TI"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Legend of the Fisherman -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <div class="project-card__placeholder">
+                <span class="project-card__placeholder-icon">🎣</span>
+                <span class="project-card__placeholder-text"
+                  >Legend of the Fisherman</span
+                >
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Ludum Dare 32</span>
+              <h3 class="project-card__title">Legend of the Fisherman</h3>
+              <p class="project-card__desc">
+                An unconventional weapon for an unconventional hero. Cast your
+                line and reel in adventure.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Other Creative Projects -->
+        <h3
+          class="section__subtitle section__subtitle--left anim-fade-up"
+          style="margin-top: 4rem"
+        >
+          Other Creative Projects
+        </h3>
+        <div class="projects__grid projects__grid--other">
+          <!-- Molecubes -->
+          <article class="project-card anim-fade-up" data-video="ve0fyEcidyU">
+            <div class="project-card__media">
+              <img
+                src="images/molecubes-title.png"
+                alt="Molecubes"
+                loading="lazy"
+              />
+              <img
+                src="images/molecubes-gameplay.png"
+                alt="Molecubes gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Personal Project</span>
+              <h3 class="project-card__title">Molecubes</h3>
+              <p class="project-card__desc">
+                A molecular puzzle game where you combine and split cubes to
+                solve chemistry-inspired challenges. Built as a creative
+                exploration of voxel mechanics.
+              </p>
+              <div class="project-card__links">
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="ve0fyEcidyU"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Jackie vs. Benny -->
+          <article class="project-card anim-fade-up" data-video="OSciGP7AP_M">
+            <div class="project-card__media">
+              <div class="project-card__placeholder">
+                <img
+                  src="https://img.youtube.com/vi/OSciGP7AP_M/hqdefault.jpg"
+                  alt="Jackie vs. Benny"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Rotoscope Animation</span>
+              <h3 class="project-card__title">Jackie vs. Benny</h3>
+              <p class="project-card__desc">
+                A hand-animated rotoscope recreation of an iconic Jackie Chan
+                fight scene. Frame-by-frame animation showcasing a passion for
+                visual storytelling.
+              </p>
+              <div class="project-card__links">
+                <button
+                  class="btn btn--sm btn--outline btn-play-video"
+                  data-video="OSciGP7AP_M"
+                >
+                  ▶ Watch
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dimension Knight -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/dimensionknight-title.png"
+                alt="Dimension Knight"
+                loading="lazy"
+              />
+              <img
+                src="images/dimensionknight-gameplay.png"
+                alt="Dimension Knight gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Personal Project</span>
+              <h3 class="project-card__title">Dimension Knight</h3>
+              <p class="project-card__desc">
+                Traverse between realities as a knight caught between
+                dimensions. A platformer experiment with dimension-shifting
+                mechanics.
+              </p>
+            </div>
+          </article>
+
+          <!-- Fatal Sacrifice -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/fatalsacrifice-title.png"
+                alt="Fatal Sacrifice"
+                loading="lazy"
+              />
+              <img
+                src="images/fatalsacrifice-gameplay.png"
+                alt="Fatal Sacrifice gameplay"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Personal Project</span>
+              <h3 class="project-card__title">Fatal Sacrifice</h3>
+              <p class="project-card__desc">
+                Dark fantasy action where every choice comes at a cost. A game
+                about the price of power and the sacrifices we make.
+              </p>
+            </div>
+          </article>
+
+          <!-- Rogue Dungeon -->
+          <article class="project-card anim-fade-up" data-video="">
+            <div class="project-card__media">
+              <img
+                src="images/roguedungeon-gameplay.png"
+                alt="Rogue Dungeon"
+                loading="lazy"
+              />
+              <img
+                src="images/roguedungeon-inventory.png"
+                alt="Rogue Dungeon inventory"
+                loading="lazy"
+                class="project-card__img-hover"
+              />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__event">Personal Project</span>
+              <h3 class="project-card__title">Rogue Dungeon</h3>
+              <p class="project-card__desc">
+                A procedurally generated dungeon crawler with an
+                inventory-driven gameplay loop. Loot, equip, survive — every run
+                is different.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Get in Touch</h2>
+        <p class="contact__text anim-fade-up">
+          Interested in working together or just want to say hi? Feel free to
+          reach out.
+        </p>
+        <div class="contact__links anim-fade-up">
+          <a href="mailto:emil.hallin93@gmail.com" class="btn btn--lg">
+            <span class="btn__icon">✉</span> Email Me
+          </a>
+          <a
+            href="https://se.linkedin.com/in/emil-hallin-8b74a3a8"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--lg btn--outline"
+          >
+            <span class="btn__icon">in</span> LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Emil Hallin. Built with passion and clean code.</p>
+      </div>
+    </footer>
+
+    <!-- ===== VIDEO MODAL ===== -->
+    <div class="modal" id="videoModal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <button class="modal__close" id="modalClose">&times;</button>
+        <div class="modal__video-wrap">
+          <iframe
+            id="modalIframe"
+            src=""
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
